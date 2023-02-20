@@ -6,7 +6,7 @@
 
 <br>
 
-> Use the project yourself: {LINK} 
+> Use the project yourself: https://movies-lib-chi.vercel.app/
 
 <br>
 
