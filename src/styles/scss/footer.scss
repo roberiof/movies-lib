@@ -1,0 +1,25 @@
+footer{
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 8rem;
+  #hr{
+    border-bottom: 1px solid white;
+  }
+  h4{
+    padding: 2rem;
+  }
+}
+
+#wrapper{
+  min-height: 58vh;
+}
+// this is for well position footer at the bottom in the search page 
+
+
+@media (max-width: 340px){
+  h4{
+    font-size: .8rem;
+  }
+}

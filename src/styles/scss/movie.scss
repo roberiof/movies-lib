@@ -1,0 +1,52 @@
+#poster-div{
+  margin-top: 5rem;
+  text-align: center;
+  
+  p{
+    font-size: 1.2rem;
+  }
+
+  img{
+    width: 95%;
+    max-width: 400px;
+  }
+  .div-icon-vote{
+    margin-block: 1.5rem;
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+    justify-content: center;
+    span *{
+      color: $starColor;
+    }
+  }
+}
+
+#infos-div{
+  margin: 3rem auto;
+  width: 85%;
+  max-width: 750px;
+  
+  .div-item-info{
+    margin-bottom: 3rem;
+    p{
+      margin-left: 1rem;
+      font-size: 1.15rem;
+      text-align: justify;
+    }
+    .div-icon-title{
+      display: flex;
+      align-items: center;
+      gap: .7rem;
+      margin-bottom: .5rem;
+      h3{
+        padding-bottom: .23rem;
+      }
+      span *{
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+

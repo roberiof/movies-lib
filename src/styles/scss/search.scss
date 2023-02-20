@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+// the wrapper config is the same as home page 
+
+.loading-text, .loading-warning-text{
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#title{
+  width: 100%;
+  overflow: auto;
+}
+
+.query-text {
+  color: $mainColor;
+  overflow: hidden;
+}

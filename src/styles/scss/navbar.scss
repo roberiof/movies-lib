@@ -1,0 +1,76 @@
+@import './variables.scss';
+
+nav{
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+
+    span *{
+      user-select: none;
+      color: $mainColor;
+    }
+
+    .nav-h2{
+      padding-bottom: 0.1rem;
+      color: $mainColor;
+      &:hover{
+        color: $mainHoverColor;
+      }
+    }
+  }
+
+  form{
+    width: 45%;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-between;
+  
+    input{
+      padding: .5rem;
+      width: 83%;
+      background-color: transparent;
+      outline: none;
+      border: 1px solid $mainColor;
+      border-radius: 3px;
+      &:focus{
+        border-style: dashed;
+      }
+    }
+
+    button{
+      outline-color: black; 
+      border: 0;
+      border-radius: 3px;
+      width: 15%;
+      padding: .5rem;
+      background-color: $mainColor;
+      cursor: pointer;
+      &:hover{
+        transform: scale(1.1);
+        transition: all .2s;
+      }
+      span *{
+        color: black;
+      }
+    }
+  
+  }
+}
+
+@media (max-width: 545px){
+  nav{
+    padding: 2rem;
+    flex-direction: column;
+    form{
+      margin-top: 1rem;
+      width: 100%;
+    }
+  }
+}
